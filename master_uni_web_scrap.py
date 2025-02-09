@@ -31,7 +31,7 @@ last_page_number = int(pagination[-2].text)
 for page_num in range(1, last_page_number + 1):
     print(f"Scraping page {page_num}...")  
     
-    # Open the current page
+    # Get the current page
     driver.get(f"{base_url}{page_num}")
     
     # Wait until university names are present on the page 

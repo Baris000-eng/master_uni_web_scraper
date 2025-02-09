@@ -41,7 +41,7 @@ for page_num in range(1, last_page_number + 1):
         print(f"Error on page {page_num}: {str(e)}")
         continue  
     
-    # Find all universities on the current page 
+    # Find names, locations, ranks, and overall scores of all universities on the current page 
     university_names = driver.find_elements(By.CSS_SELECTOR, ".uni-link")
     university_locations = driver.find_elements(By.CSS_SELECTOR, ".location")
     university_ranks = driver.find_elements(By.CSS_SELECTOR, ".rank-no")

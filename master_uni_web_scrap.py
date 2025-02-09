@@ -16,7 +16,6 @@ base_url = "https://www.topuniversities.com/world-university-rankings?page="
 
 all_universities = []
 
-# Open the first page 
 driver.get(f"{base_url}1")
 
 # Find the last page number 

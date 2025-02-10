@@ -6,7 +6,7 @@ Then, to activate the virtual environment that we have created, we should use th
 
 ⚡cd web_scraper_env/Scripts
 
-⚡source web_scraper_env/bin/activate
+⚡"source web_scraper_env/bin/activate" or "./activate"
 
 After that, we can install the project libraries as below: 
 

@@ -11,6 +11,7 @@ Then, to activate the virtual environment that we have created, we should use th
 After that, we can install the project libraries as below: 
 
 To install necessary libraries with pip: 
+
 ⚡pip install pandas selenium webdriver-manager
 
 

@@ -1,5 +1,15 @@
-To install necessary libraries with pip: 
+Firstly, as a best practice, we should create a virtual environment: 
 
+python -m venv web_scraper_env
+
+Then, to activate the virtual environment that we have created, we should use the commands below: 
+
+cd web_scraper_env/Scripts
+source web_scraper_env/bin/activate
+
+After that, we can install the project libraries as below: 
+
+To install necessary libraries with pip: 
 pip install pandas selenium webdriver-manager
 
 

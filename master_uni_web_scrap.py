@@ -71,7 +71,6 @@ df.to_excel(excel_filename, index=False)
 print(f"All universities have been saved to {excel_filename}")
 
 
-# Close the browser
 driver.quit()
 
 
